@@ -30,7 +30,7 @@ The application provides a simple internship discovery workflow:
 
 **Browse Internships → Search → Filter → View Details → Apply**
 
-Users can explore available internships, search using keywords, filter opportunities by domain, and use the Apply Now button to quickly open the application form with the selected internship.
+Users can explore available internships, search using keywords, filter opportunities by domain, and use the **Apply Now** button to quickly open the application form with the selected internship.
 
 ---
 
@@ -76,9 +76,10 @@ Each internship listing provides:
 * Full name field
 * Email field
 * College field
-* Internship domain
+* Internship selection
 * Motivation/message field
 * Application success message
+* Form reset after submission
 
 ### 📱 Responsive Design
 
@@ -159,9 +160,13 @@ Internship-Portal/
 │   └── Application.png
 │
 └── README.md
+```
 
-🔄 Application Workflow
+---
 
+## 🔄 Application Workflow
+
+```text
 Home Page
     ↓
 Browse Internships
@@ -181,46 +186,61 @@ Select Internship
 Submit Application
     ↓
 Success Message
+```
 
-🧪 Testing
+---
+
+## 🧪 Testing
 
 The application was tested across the major frontend workflows:
 
-Navigation between sections
-Internship search
-Domain filtering
-No-results handling
-Internship card display
-Apply Now buttons
-Automatic internship selection
-Application form validation
-Application success message
-Form reset
-Responsive layout
-Mobile layout
-Desktop layout
-💻 Run Locally
+* Navigation between sections
+* Internship search
+* Domain filtering
+* No-results handling
+* Internship card display
+* Apply Now buttons
+* Automatic internship selection
+* Application form validation
+* Application success message
+* Form reset
+* Responsive layout
+* Mobile layout
+* Desktop layout
 
-Clone the repository:
+---
 
-git clone <your-repository-url>
+## 💻 Run Locally
 
-Navigate to the project folder:
+### Clone the Repository
 
-cd Internship-Portal
+```bash
+git clone https://github.com/Pavithrapavi25/Internship-portal.git
+```
 
-Open index.html directly in a browser.
+### Navigate to the Project Folder
+
+```bash
+cd Internship-portal
+```
+
+### Run the Application
+
+Open `index.html` directly in a web browser.
 
 Alternatively, the project can be served using a local development server.
 
 No backend server or database is required.
 
-🐳 Docker
+---
+
+## 🐳 Docker
 
 The project includes a Dockerfile for serving the static frontend using Nginx.
 
-Architecture:
+### Architecture
 
+```text
 HTML + CSS + JavaScript
           ↓
        Docker
@@ -228,69 +248,83 @@ HTML + CSS + JavaScript
         Nginx
           ↓
      Web Browser
+```
 
 Docker is optional for local development.
 
-📌 Project Scope
+---
+
+## 📌 Project Scope
 
 InternHub is a frontend-focused internship portal created to demonstrate:
 
-Responsive web development
-Modern HTML structure
-CSS-based responsive design
-JavaScript interactivity
-Search and filtering
-Form handling
-DOM manipulation
-Basic containerization
+* Responsive web development
+* Modern HTML structure
+* CSS-based responsive design
+* JavaScript interactivity
+* Search and filtering
+* Form handling
+* DOM manipulation
+* Basic containerization
+* Nginx static file serving
 
 The internship listings, company names, stipend information, and contact details are sample data created for demonstration purposes.
 
 The current application does not have a backend database or persistent application storage.
 
-🎯 Project Objective
+---
+
+## 🎯 Project Objective
 
 The main objective of this project is to create a practical and user-friendly internship discovery interface that demonstrates how students can browse, search, filter, and apply for internship opportunities from a centralized platform.
 
 The project focuses on frontend usability, responsive design, and interactive JavaScript functionality.
 
-📚 What I Learned
+---
+
+## 📚 What I Learned
 
 Through this project, I worked with:
 
-HTML5 semantic structure
-CSS3 responsive design
-JavaScript DOM manipulation
-Event handling
-Search functionality
-Dynamic filtering
-Form validation
-Interactive UI components
-Responsive layouts
-Docker configuration
-Nginx static file serving
-Git and GitHub
-Project documentation
-🔮 Future Improvements
+* HTML5 semantic structure
+* CSS3 responsive design
+* JavaScript DOM manipulation
+* Event handling
+* Search functionality
+* Dynamic filtering
+* Form validation
+* Interactive UI components
+* Responsive layouts
+* Docker configuration
+* Nginx static file serving
+* Git and GitHub
+* Project documentation
+
+---
+
+## 🔮 Future Improvements
 
 Potential future enhancements include:
 
-Backend API integration
-User authentication
-Student profiles
-Company accounts
-Real internship database
-Persistent application storage
-Resume upload
-Application status tracking
-Email notifications
-Admin dashboard
-Internship posting functionality
-Advanced internship filtering
-Cloud deployment
-👩‍💻 Developer
+* Backend API integration
+* User authentication
+* Student profiles
+* Company accounts
+* Real internship database
+* Persistent application storage
+* Resume upload
+* Application status tracking
+* Email notifications
+* Admin dashboard
+* Internship posting functionality
+* Advanced internship filtering
+* Cloud deployment
 
-Pavithra
+---
+
+## 👩‍💻 Developer
+
+**Pavithra**
 
 AI & Data Science Graduate | Software & Data Science Enthusiast
 
